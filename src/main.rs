@@ -8,7 +8,7 @@ struct Friend {
 
 impl fmt::Display for Friend {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        writeln!(f, "{} {}", self.name, self.age)
+        write!(f, "{} {}", self.name, self.age)
     }
 }
 
@@ -56,5 +56,5 @@ fn main() {
         retweet: false,
     };
 
-    println!("1 new tweet: {}", tweet.summarize());
+    println!("{}。", tweet.summarize());
 }
