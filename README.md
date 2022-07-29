@@ -1,5 +1,5 @@
 ## Oh My Rust
 
-Something boring about my friend Yao.
+Something boring about Yao.
 
 To learn Rust and git.
