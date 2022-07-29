@@ -2,4 +2,4 @@
 
 Something boring about Yao.
 
-To learn Rust and git.
+To learn Rust and Git.
